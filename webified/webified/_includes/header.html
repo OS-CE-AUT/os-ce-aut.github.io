@@ -1,0 +1,43 @@
+<header class="header" id="home">
+    <section class="hero-section">
+        <div class="hero-mask">
+        </div>
+        <!--//hero-mask-->
+        <div class="container text-center py-5">
+            <div class="single-col-max mx-auto">
+                <div class="hero-heading-upper pt-3 mb-3">{{ site.pretext }}<br class="d-md-none"></div>
+                <h1 class="hero-heading mb-5">
+                    <span class="brand mb-4 d-block"><span class="text-highlight pr-2">{</span><span
+                            class="name">{{ site.title }}</span><span class="text-highlight pl-2">}</span></span>
+                    <span class="desc d-block">{{ site.university }} <br> {{ site.course }}</span>
+                    <span class="desc d-block"></span>
+                </h1>
+                <div class="text-center mb-5">
+                    <a href="#section-content" class="btn btn-primary btn-lg scrollto">Our Suggested Timeline</a>
+                </div>
+                <div class="hero-summary">
+                    <div class="row">
+                        {% for summary in site.data.summary %}
+                        <div class="item col-3">
+                            <div class="summary-desc mb-1"><i
+                                    class="icon fas fa-{{ summary.icon }} mr-2"></i>{{ summary.title }}</div>
+                            <h4 class="summary-heading"">{{ summary.value }}
+                                {% if summary.desc %}
+                                <span class=" desc">{{ summary.desc }}</span>
+                                {% endif %}
+                            </h4>
+                        </div>
+                        <!--//col-->
+                        {% endfor %}
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//hero-summary-->
+            </div>
+            <!--//single-col-max-->
+        </div>
+        <!--//container-->
+
+    </section>
+    <!--//hero-section-->
+</header>

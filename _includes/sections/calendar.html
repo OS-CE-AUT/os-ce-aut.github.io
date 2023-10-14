@@ -1,0 +1,35 @@
+<div class="pt-md-4 pt-lg-5">
+  <div class="container py-5 theme-bg-light rounded">
+    <div class="section-col-max mx-auto">
+      <h3 class="section-title mb-4">{{ site.data.calendar.title }}</h3>
+
+      <div class="flex justify-content-around align-items-center">
+        {% for month in site.data.calendar.months%}
+        <button class="btn btn-light m-2" data-type="monthButton" data-value={{month.title}}>{{ month.title }}</button>
+        {% endfor %}
+      </div>
+
+      {% for month in site.data.calendar.months %}
+      <div data-month="{{ month.title }}" class="w-100" data-type="month">
+        <h3 class="text-center">{{month.title}}</h3>
+        <div class="d-flex flex-wrap">
+          {% for item in month.days %}
+          <div class="day-box d-flex flex-column justify-content-center align-items-center">
+            <h6>{{ item.day }}</h6>
+            {% if item.topic%}
+                <span class="w-100 badge badge-success overflow-auto">{{item.topic}}</span>
+            {% endif %}
+            {% if item.presenter%}
+                <span class="w-100 m-1 badge badge-secondary overflow-auto">{{item.presenter}}</span>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!--//section-col-max-->
+  </div>
+  <!--//container-->
+</div>
+<!--//section-overview-->

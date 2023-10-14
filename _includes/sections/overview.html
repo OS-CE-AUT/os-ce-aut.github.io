@@ -1,0 +1,23 @@
+<div class="pt-md-4 pt-lg-5">
+    <div class="container py-5 theme-bg-light rounded">
+        <div class="section-col-max mx-auto">
+            <h3 class="section-title mb-4">{{ site.data.overview.title }}</h3>
+            <p class="mb-4" style="text-align: justify;">
+                {{ site.data.overview.content }}
+            </p>
+            <div class="text-left mb-3">
+                <ul class="column-list list-unstyled mx-auto d-inline-block">
+                    {% for item in site.data.overview.items %}
+                    <li>
+                        <i class="theme-check-icon fas fa-check mr-2"></i>
+                        {{ item }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <!--//section-col-max-->
+    </div>
+    <!--//container-->
+</div>
+<!--//section-overview-->

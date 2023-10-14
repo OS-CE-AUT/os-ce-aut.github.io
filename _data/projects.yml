@@ -1,0 +1,191 @@
+- semester: Spring 2023
+  title: Optimize fork of xv6
+  icon: code-branch
+  projects:
+    - team: Team 10
+      links:
+        - title: Repository
+          url: https://github.com/AshkanShakiba/OS-PX-xv6_riscv
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 20
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 34
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+        - title: Youtube
+          url: https://www.youtube.com/
+    - team: Team 24
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 40
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://aparat.com/
+    - team: Team 3
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 5
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 51
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+
+- semester: Spring 2023
+  title: Scheduler for xv6
+  icon: clock
+  projects:
+    - team: Team 10
+      links:
+        - title: Repository
+          url: https://github.com/AshkanShakiba/OS-PX-xv6_riscv
+        - title: Aparat
+          url: https://www.aparat.com/
+        - title: YouTube
+          url: https://youtu.be/
+    - team: Team 14
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 47
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 16
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 5
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 1
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 13
+      links:
+        - title: Repository
+          url: https://
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 9
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: http://aparat.com/
+
+- semester: Spring 2023
+  title: System Calls for xv6
+  icon: tty
+  projects:
+    - team: Team 10
+      links:
+        - title: Repository
+          url: https://github.com/AshkanShakiba/OS-PX-xv6_riscv
+        - title: Namasha
+          url: https://www.namasha.com/
+    - team: Team 1
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 10
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 7
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 11
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 17
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+
+- semester: Fall 2022
+  title: Thread for xv6
+  icon: vials
+  projects:
+    - team: Team 3
+      links:
+        - title: Repository
+          url: https://github.com/farhad-aman/OS-Fall2022
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 1
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 6
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 7
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 12
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/
+    - team: Team 15
+      links:
+        - title: Repository
+          url: https://github.com/
+        - title: Aparat
+          url: https://www.aparat.com/

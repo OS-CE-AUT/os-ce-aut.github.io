@@ -1,0 +1,23 @@
+title:  What's Included
+includes:
+  - meta: Hours
+    data: 48
+
+  - meta: Exercises
+    data: 5
+
+  - meta: Assistants
+    data: 9
+
+  - meta: Students
+    data: 40+
+
+ 
+
+subtitle: Course Content
+
+lessons:
+  - title: "Lesson 1 : Introduction"
+    requirements: ""
+    description: ""
+    body: lesson_0

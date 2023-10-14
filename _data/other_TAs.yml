@@ -1,0 +1,35 @@
+- name: Ashkan Shakiba
+  roles:
+    - Assignments
+    - Workshop
+  image: ashkan-shakiba.jpg
+  social:
+    - name: github
+      link: https://github.com/AshkanShakiba/
+    - name: linkedin
+      link: https://www.linkedin.com/in/AshkanShakiba/
+
+- name: Farhad Aman
+  roles:
+    - Public Relations
+    - Project
+  image: farhad-aman.jpg
+  social:
+    - name: github
+      link: https://github.com/farhad-aman/
+    - name: linkedin
+      link: https://www.linkedin.com/in/farhad-aman/
+    - name: twitter
+      link: https://twitter.com/FarhadAman77
+  
+- name: Amirfazel Koozegar
+  roles:
+    - Website
+  image: amirfazel-koozegar.jpg
+  social:
+    - name: github
+      link: https://github.com/mr-amirfazel
+    - name: linkedin
+      link: https://www.linkedin.com/in/amirfazel-koozegar-kaleji-229682227/
+    - name: twitter
+      link: https://twitter.com/cleverapache

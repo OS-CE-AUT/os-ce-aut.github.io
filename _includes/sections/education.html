@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="container-inner position-relative theme-bg-primary rounded">
+        <div class="section-bg-container"></div>
+        <div class="container our-webcoderskull py-3">
+            <div class="row heading heading-icon">
+                <h2>Education Team</h2>
+            </div>
+            <ul class="row px-2 py-2">
+                {% for head in site.data.headquarters %}
+                <li class="col my-1 px-2">
+                    <div class="rounded-lg cnt-block equal-hight" style="height: 340px;">
+                        <figure><img src="assets/images/team/{{ head.image }}" class="img-responsive" alt=""></figure>
+                        <h3 class="align-middle">{{ head.name }}</h3>
+                        <p>{{ head.role }}</p>
+                        {% if head.social %}
+                        <ul class="follow-us clearfix">
+                            {% for social in head.social %}
+                            <li><a href="{{ social.link }}"><i class="fab fa-{{ social.name }}"
+                                        aria-hidden="true"></i></a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            <ul class="row px-2">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner py-2 w-100" role="listbox">
+                        {% for TA in site.data.other_TAs %}
+                        <div class="carousel-item{%if forloop.index == 1 %} active{% endif %}">
+                            <li class="slider-item col-3 w-100 px-2">
+                                <div class="rounded-lg cnt-block equal-hight" style="height: 340px;">
+                                    <figure><img src="assets/images/team/{{ TA.image }}" class="img-responsive" alt="">
+                                    </figure>
+                                    <h3 class="align-middle">{{ TA.name }}</h3>
+                                    {% for role in TA.roles %}
+                                    <span class="badge badge-pill badge-primary">{{ role }}</span>
+                                    {% endfor %}
+                                    {% if TA.social %}
+                                    <ul class="follow-us clearfix">
+                                        {% for social in TA.social %}
+                                        <li><a href="{{ social.link }}"><i class="fab fa-{{ social.name }}"
+                                                    aria-hidden="true"></i></a></li>
+                                        {% endfor %}
+                                    </ul>
+                                    {% endif %}
+                                </div>
+                            </li>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <a class="carousel-control-prev w-auto pl-2" href="#recipeCarousel" role="button" data-slide="prev">
+                        <i class="fas fa-chevron-circle-left text-dark"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto pr-2" href="#recipeCarousel" role="button" data-slide="next">
+                        <i class="fas fa-chevron-circle-right text-dark"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>

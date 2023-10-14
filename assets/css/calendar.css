@@ -1,0 +1,7 @@
+.day-box{
+    height: 5rem;
+    width: 33% !important;
+}
+.day-box span{
+    overflow-wrap: break-word;
+}

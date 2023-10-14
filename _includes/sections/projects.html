@@ -1,0 +1,32 @@
+<div class="container mb-5">
+    <h3 class="section-title mb-5">Best Projects</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-timeline7">
+                {% for item in site.data.projects %}
+                <div class="timeline">
+                    <div class="timeline-icon">
+                        <i class="t-icon fas fa-{{ item.icon }}"></i>
+                    </div>
+                    <span class="year">{{ item.semester }}</span>
+                    <div class="timeline-content">
+                        <h5 class="title">{{ item.title }}</h5>
+                        <div class="description">
+                            {% for project in item.projects %}
+                            <div class="list-group-item mx-5">
+                                <p class="float-left">
+                                    {{ project.team }}
+                                </p>
+                                {% for link in project.links %}
+                                <a href="{{ link.url }}"><span class="badge badge-pill badge-success">{{ link.title }}</span></a>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
