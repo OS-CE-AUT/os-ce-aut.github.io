@@ -7,13 +7,13 @@
   value: 5
   icon: book
 
-- title: TAs
-  value: 9
-  icon: users
+# - title: TAs
+#   value: 9
+#   icon: users
 
-- title: Students
-  value: 40+
-  icon: user-circle
+# - title: Students
+#   value: 40+
+#   icon: user-circle
 
 # - title: Visists
 #   value: 
