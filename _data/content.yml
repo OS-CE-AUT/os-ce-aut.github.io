@@ -1,16 +1,16 @@
-title:  What's Included
-includes:
-  - meta: Hours
-    data: 48
+# title:  What's Included
+# includes:
+#   - meta: Hours
+#     data: 48
 
-  - meta: Exercises
-    data: 5
+#   - meta: Exercises
+#     data: 5
 
-  - meta: Assistants
-    data: 9
+#   - meta: Assistants
+#     data: 9
 
-  - meta: Students
-    data: 40+
+#   - meta: Students
+#     data: 40+
 
  
 
