@@ -1,19 +1,19 @@
-- title: Duration
-  value: 48
-  icon: clock
-  desc: Hours
+# - title: Duration
+#   value: 48
+#   icon: clock
+#   desc: Hours
 
-- title: Exercises
-  value: 5
-  icon: book
+# - title: Exercises
+#   value: 5لهف
+#   icon: book
 
-- title: TAs
-  value: 9
-  icon: users
+# - title: TAs
+#   value: 9
+#   icon: users
 
-- title: Students
-  value: 40+
-  icon: user-circle
+# - title: Students
+#   value: 40+
+#   icon: user-circle
 
 # - title: Visists
 #   value: 
