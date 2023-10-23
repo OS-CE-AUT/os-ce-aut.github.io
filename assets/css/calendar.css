@@ -5,3 +5,15 @@
 .day-box span{
     overflow-wrap: break-word;
 }
+
+
+.month-button {
+    width: 100%; 
+    margin: 5px 0;
+}
+
+@media (min-width: 768px) {
+    .month-button {
+        width: auto;
+    }
+}
