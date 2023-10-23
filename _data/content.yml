@@ -17,7 +17,32 @@ includes:
 subtitle: Course Content
 
 lessons:
-  - title: "Lesson 1 : Introduction"
+  - title: "Lecture 1 : Introduction"
     requirements: ""
     description: ""
-    body: lesson_0
+    body: lesson_1
+
+  - title: "Lecture 2 : Computer System Organization"
+    requirements: ""
+    description: ""
+    body: lesson_2
+
+  - title: "Lecture 3 : System Calls"
+    requirements: ""
+    description: ""
+    body: lesson_3
+
+  - title: "Lecture 4 : Interrupts and System Calls"
+    requirements: ""
+    description: ""
+    body: lesson_4
+
+  - title: "Lecture 5 : Processes (Part 1)"
+    requirements: ""
+    description: ""
+    body: lesson_5
+
+  - title: "Lecture 6 : Processes (Part 2)"
+    requirements: ""
+    description: ""
+    body: lesson_6
