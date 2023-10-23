@@ -59,6 +59,8 @@ months:
       - day: 28
 
       - day: 29
+        topic: Boot and Bootloader
+        presenter: Amirsalar Abedini
 
       - day: 30
 
