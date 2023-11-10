@@ -46,3 +46,23 @@ lessons:
     requirements: ""
     description: ""
     body: lesson_6
+
+  - title: "Lecture 7 : Processes (Part 3)"
+    requirements: ""
+    description: ""
+    body: lesson_7
+
+  - title: "Lecture 8 : Processes (Part 4)"
+    requirements: ""
+    description: ""
+    body: lesson_8
+
+  - title: "Lecture 9 : Threads and Concurrency"
+    requirements: ""
+    description: ""
+    body: lesson_9
+
+  - title: "Lecture 10 : Thread Libraries & Signal handling"
+    requirements: ""
+    description: ""
+    body: lesson_10
