@@ -17,10 +17,16 @@
           <div class="day-box d-flex flex-column justify-content-center align-items-center">
             <h6>{{ item.day }}</h6>
             {% if item.topic%}
-                <span class="badge-sizing badge badge-success">{{item.topic}}</span>
+                <span class="badge-sizing tooltip badge badge-success">
+                  {{item.topic}}
+                  <span class="tooltiptext">{{item.topic}}</span>
+                </span>
             {% endif %}
             {% if item.presenter%}
-                <span class="badge-sizing m-1 badge badge-secondary">{{item.presenter}}</span>
+                <span class="badge-sizing m-1 badge badge-secondary">
+                  {{item.presenter}}
+                  <span class="tooltiptext"><span class="tooltiptext">Tooltip text</span></span>
+                </span>
             {% endif %}
           </div>
           {% endfor %}
