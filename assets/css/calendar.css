@@ -1,6 +1,6 @@
 .day-box{
     height: 5rem;
-    width: 25% !important;
+    width: 14% !important;
 }
 .day-box span{
     overflow-wrap: break-word;
@@ -16,4 +16,9 @@
     .month-button {
         width: auto;
     }
+}
+
+.badge-sizing{
+    min-width: 100%;
+    width: fit-content;
 }
