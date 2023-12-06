@@ -66,3 +66,18 @@ lessons:
     requirements: ""
     description: ""
     body: lesson_10
+  
+  - title: "Lecture 11 : CPU scheduling"
+    requirements: ""
+    description: ""
+    body: lesson_11
+  
+  - title: "Lecture 12 : Scheduling Algorithms"
+    requirements: ""
+    description: ""
+    body: lesson_12
+  
+  - title: "Lecture 13 : Synchronization Tools (Part 1)"
+    requirements: ""
+    description: ""
+    body: lesson_13
