@@ -81,3 +81,16 @@ lessons:
     requirements: ""
     description: ""
     body: lesson_13
+
+- title: "Lecture 14 : Synchronization Tools-Part2"
+    requirements: ""
+    description: ""
+    body: lesson_14
+ - title: "Lecture 15 : Synchronization Tools-Part3"
+    requirements: ""
+    description: ""
+    body: lesson_15
+  - title: "Lecture 16 : Deadlocks-Part1"
+    requirements: ""
+    description: ""
+    body: lesson_16
