@@ -94,3 +94,28 @@ lessons:
     requirements: ""
     description: ""
     body: lesson_16
+
+  - title: "Lecture 17 : Deadlocks-Part2"
+    requirements: ""
+    description: ""
+    body: lesson_17
+
+  - title: "Lecture 18 : Main Memory-Part1"
+    requirements: ""
+    description: ""
+    body: lesson_18
+
+  - title: "Lecture 19 : Main Memory-Part2"
+    requirements: ""
+    description: ""
+    body: lesson_19
+
+  - title: "Lecture 20 : Virtual Memory"
+    requirements: ""
+    description: ""
+    body: lesson_20
+    
+  - title: "Lecture 21 : Main Memory-Page replacement"
+    requirements: ""
+    description: ""
+    body: lesson_21
